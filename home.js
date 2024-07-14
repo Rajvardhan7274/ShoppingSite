@@ -25,7 +25,7 @@ async function fetchProducts() {
                             <a href="#">${product.title}</a>
                         </div>
                         <div class="price_card">
-                            <p>$ ${product.price} <span class="mrp">MRP: ₹3,248.00</span></p>
+                            <p>$ ${product.price} <span class="mrp">MRP: $${product.price*20}</span></p>
                         </div>
                     </div>
                 </div>`;
